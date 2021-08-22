@@ -518,7 +518,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
-  width: 40%;
+  width: 100px;
   border: none;
   cursor: pointer;
   transition: 0.5s ease;
@@ -542,7 +542,7 @@ form {
 }
 
 .footer .footer-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -612,7 +612,7 @@ form {
     background-size: 25px;
     background-position: center;
     transition: 0.3s ease;
-    filter: invert(1);
+    filter: invert(2);
   }
 
   section {
