@@ -567,7 +567,7 @@ form {
     z-index: 888;
     position: fixed;
     background: #fff;
-    top: 0;
+    top: 49px;
     right: 0;
     width: 380px;
     height: 100%;
@@ -608,12 +608,11 @@ form {
 
   .menu-btn.active {
     z-index: 999;
-    background: url(images/close.png) no-repeat;
+    background: url(images/menu.png) no-repeat;
     background-size: 25px;
     background-position: center;
-    transition: 0.1s ease;
+    transition: 0.5s ease;
     filter: invert(2);
-    left: 0;
   }
 
   section {
