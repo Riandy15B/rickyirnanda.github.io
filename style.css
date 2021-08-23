@@ -608,11 +608,11 @@ form {
 
   .menu-btn.active {
     z-index: 999;
-    background: url(images/keluar.jpg) no-repeat;
+    background: url(images/close.png) no-repeat;
     background-size: 25px;
     background-position: center;
     transition: 0.3s ease;
-    filter: invert(2);
+    filter: invert(10);
   }
 
   section {
