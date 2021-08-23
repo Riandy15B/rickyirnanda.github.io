@@ -608,7 +608,7 @@ form {
 
   .menu-btn.active {
     z-index: 999;
-    background: url(images/menu.png) no-repeat;
+    background: url(images/keluar.jpg) no-repeat;
     background-size: 25px;
     background-position: center;
     transition: 0.3s ease;
