@@ -608,11 +608,12 @@ form {
 
   .menu-btn.active {
     z-index: 999;
-    background: url(images/menu.png) no-repeat;
+    background: url(images/close.png) no-repeat;
     background-size: 25px;
     background-position: center;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
     filter: invert(2);
+    left: 0;
   }
 
   section {
