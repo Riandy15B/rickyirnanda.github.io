@@ -237,7 +237,6 @@ body {
   font-size: 2em;
   font-weight: 800;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .about .content .col-right .paragraph-text {
@@ -604,15 +603,6 @@ form {
     margin: 0 20px;
     cursor: pointer;
     transition: 0.3s ease;
-  }
-
-  .menu-btn.active {
-    z-index: 999;
-    background: url(images/menu.png) no-repeat;
-    background-size: 25px;
-    background-position: center;
-    transition: 0.5s ease;
-    filter: invert(2);
   }
 
   section {
