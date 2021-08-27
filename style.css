@@ -550,7 +550,7 @@ form {
   color: pink;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 800px) {
   header {
     padding: 12px 20px;
   }
@@ -604,6 +604,15 @@ form {
     margin: 0 20px;
     cursor: pointer;
     transition: 0.3s ease;
+  }
+
+  .menu-btn.active {
+    z-index: 999;
+    background: url(images/close.png) no-repeat;
+    background-size: 25px;
+    background-position: center;
+    transition: 0.3s ease;
+    filter: invert(1);
   }
 
   section {
@@ -693,4 +702,10 @@ form {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+@media (min-width: 800px) {
+  header .navigation {
+    display: block;
+  }
 }
