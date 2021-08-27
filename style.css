@@ -13,7 +13,7 @@ html {
 }
 
 section {
-  padding: 100px 100px;
+  padding: 100px 200px;
 }
 
 .main {
@@ -116,7 +116,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 15px 100px;
+  padding: 15px 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,7 +125,7 @@ header {
 
 header.sticky {
   background: #3a6cf4;
-  padding: 10px 100px;
+  padding: 10px 200px;
 }
 
 header .brand {
@@ -550,7 +550,7 @@ form {
   color: pink;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   header {
     padding: 12px 20px;
   }
