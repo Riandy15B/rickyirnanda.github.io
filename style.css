@@ -13,7 +13,7 @@ html {
 }
 
 section {
-  padding: 100px 200px;
+  padding: 100px 40px;
 }
 
 .main {
@@ -116,7 +116,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 15px 200px;
+  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,7 +125,7 @@ header {
 
 header.sticky {
   background: #3a6cf4;
-  padding: 10px 200px;
+  padding: 10px 40px;
 }
 
 header .brand {
