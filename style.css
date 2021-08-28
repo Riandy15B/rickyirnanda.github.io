@@ -346,7 +346,7 @@ body {
 
 .services .content .card {
   background: #fff;
-  width: 280px;
+  width: 340px;
   margin: 10px;
   padding: 25px;
   justify-content: center;
@@ -391,7 +391,7 @@ body {
 }
 
 .work .content .card {
-  width: 370px;
+  width: 340px;
   margin: 15px;
 }
 
